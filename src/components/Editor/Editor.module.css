@@ -10,6 +10,15 @@
   height: fit-content;
   margin: 0 auto;
 }
+@media only screen and (max-width: 900px) {
+  .container {
+    min-width: 250px;
+    min-height: 450px;
+    max-width: 500px;
+  }
+
+ 
+}
 
 .header {
   display: flex;
@@ -117,7 +126,7 @@
   color: #fff;
   outline: none;
   border: none;
-  font-weight: bold;
+  font-weight: 500;
   font-size: 1rem;
   letter-spacing: 1px;
   display: flex;

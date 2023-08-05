@@ -13,6 +13,16 @@
   padding: 30px;
 }
 
+@media only screen and (max-width: 800px) {
+  .container {
+    min-width: 400px;
+    max-width: 550px;
+    display: flex;
+    align-items: center;
+  }
+
+}
+
 .header {
   display: flex;
   flex-direction: column;
